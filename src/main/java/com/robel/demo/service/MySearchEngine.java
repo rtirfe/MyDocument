@@ -23,7 +23,6 @@ public class MySearchEngine implements SearchEngine {
     }
 
     @Override
-
     public List<Document> listAll() {
         return storage();
     }
